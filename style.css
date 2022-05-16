@@ -1,0 +1,119 @@
+
+body {
+    background-color: black;
+    background-image: url(https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2020/08/inferno-o-que-diz-a-religiao-e-a-filosofia-sobre-o-ambiente-de-dor-e-pecado-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body,ul,li,p {
+    margin:0 ;
+    padding: 0;
+    list-style: none ;
+    font: size 1.2em ;
+    font-size: arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color:black;
+    background-position: bottom;
+    display: flex;
+   justify-content: space-between;
+   padding: 5px;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.meni li a {
+    display: block;
+    padding: 10px;
+}
+
+/* CSS flexbox  */
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    color: red;  
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+p,h2 {
+    color: white;
+   text-align: center;
+}
+
+a {
+    color: red;
+}
+
+footer {
+    height: 50px;
+    padding: 5px;
+    background-color:black;
+    margin: 10px;
+    color: white;
+  display: contents;
+    text-align: center;
+}
+
+footer,dt {
+    font-weight: bold;
+}
+
+footer,dd {
+    margin-left: 0px;
+}
+
+/* Botão animado */
+
+.bnt {
+    display:block ;
+    width:100% ;
+    text-align:center ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.bnt:hover {
+    background-color: red;
+}
+
+
+
