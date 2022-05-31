@@ -7,10 +7,9 @@ body {
 }
 
 body,ul,li,p {
-    margin:0 ;
+    margin:5 ;
     padding: 0;
     list-style: none ;
-    font: size 1.2em ;
     font-size: arial;
 }
 
@@ -21,39 +20,36 @@ a {
 
 .header {
     background-color:black;
-    background-position: bottom;
     display: flex;
    justify-content: space-between;
-   padding: 5px;
+   padding:10px;
    align-items: center;
    flex-wrap: wrap;
-
 }
 
 .menu {
     display: flex;
+    background-color: black;
 }
 
 .menu li {
-  margin-left: 10px;
-}
-
-.meni li a {
-    display: block;
-    padding: 10px;
+  margin-left: 50px;
+  display: block;
 }
 
 /* CSS flexbox  */
 
 h1 {
     text-align: center;
-    margin-top: 0px;
-    color: red;  
+    margin-top: 30px;
+    color: red; 
 }
 
 img {
     max-width: 100%;
     display: block;
+    border: 1px solid white;
+
 }
 
 .flex {
@@ -74,27 +70,15 @@ p,h2 {
    text-align: center;
 }
 
-a {
-    color: red;
-}
-
 footer {
-    height: 50px;
-    padding: 5px;
+    padding: 20px;
     background-color:black;
-    margin: 10px;
+    margin: 5px;
     color: white;
   display: contents;
     text-align: center;
 }
 
-footer,dt {
-    font-weight: bold;
-}
-
-footer,dd {
-    margin-left: 0px;
-}
 
 /* Botão animado */
 
@@ -114,6 +98,13 @@ footer,dd {
 .bnt:hover {
     background-color: red;
 }
+
+  fieldset{
+      color: white;
+      background-color: black;
+      padding: 10px 10px 10px 10px ;
+  }
+
 
 
 
